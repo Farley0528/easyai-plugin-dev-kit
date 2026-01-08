@@ -2,7 +2,7 @@
   {
     "name": "ToggleImageUpload",
     "path": "./components/ImageUpload/ToggleImageUpload.vue",
-    "scenes": "DrawPanne",
+    "scenes": "all",
     "description": "带开关控制的图片上传组件",
     "data": {
       "paramName": "switch_image_upload",
