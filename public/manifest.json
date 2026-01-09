@@ -1,14 +1,14 @@
 [
   {
-    "name": "ToggleImageUpload_V2",
+    "name": "ToggleImageUpload_Fix",
     "path": "./components/ImageUpload/ToggleImageUpload.vue",
-    "description": "调试专用组件",
+    "description": "Debug Component",
     "scenes": "all",
     "data": {
       "paramName": "debug_upload",
-      "label": "★调试-上传组件",
+      "label": "★调试组件",
       "icon": "image",
-      "group": "image", 
+      "group": "image",
       "isRefComponent": false
     }
   }

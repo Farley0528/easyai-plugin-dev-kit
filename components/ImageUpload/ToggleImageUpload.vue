@@ -1,19 +1,10 @@
 <template>
-  <div class="p-4 border-2 border-green-500 bg-green-50 rounded-lg">
-    <h3 class="text-green-700 font-bold text-lg">✅ 插件连接成功！</h3>
-    <p class="text-gray-600 mt-2">如果您看到这个绿色框，说明 Vercel 部署和 EasyAI 配置都通了。</p>
-    <div class="mt-4">
-      <button 
-        class="px-3 py-1 bg-green-600 text-white rounded hover:bg-green-700 transition"
-        @click="count++"
-      >
-        点击测试交互: {{ count }}
-      </button>
-    </div>
+  <div style="padding: 20px; background-color: #e6fffa; border: 2px solid #38b2ac; border-radius: 8px;">
+    <h3 style="color: #285e61; font-weight: bold;">✅ 终于显示了！</h3>
+    <p>组：image / 图标：★调试组件</p>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
-const count = ref(0);
+console.log("插件已加载");
 </script>
