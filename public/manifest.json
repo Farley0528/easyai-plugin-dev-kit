@@ -2,14 +2,14 @@
   {
     "name": "ToggleImageUpload",
     "path": "./components/ImageUpload/ToggleImageUpload.vue",
-    "scenes": "all",
     "description": "带开关控制的图片上传组件",
+    "scenes": "all",
     "data": {
       "paramName": "switch_image_upload",
-      "label": "条件图片上传",
+      "label": "我的测试组件", 
       "icon": "icon-park:switch",
-      "group": "IMAGE",
-      "isRefComponent": true
+      "group": "MY_TEST",
+      "isRefComponent": false
     }
   }
 ]
